@@ -57,6 +57,7 @@ jobs:
       env:
         HEADLESS: true
         APP_URL: https://shivery-faucal-nash.ngrok-free.dev
+      run: |
         pytest test/ -v
 
 
